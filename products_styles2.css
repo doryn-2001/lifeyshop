@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.inner_main_menu {
+    margin: 0 auto;
+    width: 1170px;
+    text-align: right;
+}
+.inner_main_menu ul{
+    margin: 0;
+    padding: 80px 0 0;
+    list-style: none;
+    position: relative;
+}
+
+.inner_main_menu ul li {
+    float: none;
+    display: inline-block;
+}
+.inner_main_menu ul li:nth-child(1) {
+    float: left;
+    /*
+    margin: -4% 0 0 2%;*/
+    margin: -47px 0 0 68px;
+    border-radius: 30px 0 0 30px;
+}
+.inner_main_menu ul li:nth-child(2) {
+    float: left;
+    margin: -47px 0 0 95px;
+}
+.inner_main_menu ul li:nth-child(3) {
+    float: right;
+    margin: -47px 110px 0 -15px;
+}
+.inner_main_menu ul li:nth-child(4) {
+    float: right;
+    margin: -47px 60px 0 125px;
+}
+
+.inner_main_menu ul li a {
+    color: white; font-size:20px; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    display: block; 
+    padding: 10px 20px;
+    font-family: 'Oswald', sans-serif;
+
+    background-color: #7ed957;
+    border: none;
+    border-radius: 12px;
+}
+
+.inner_main_menu ul li a:hover {
+color: yellow;
+}
+
+#main_menu {
+    width: 100%;
+    position: relative;
+    overflow: scroll auto;
+}
+
+.flag {
+    position: absolute; 
+    margin: -54px 0 0 470px;
+}
+
+.logo_area {
+    width: 50px;/*de regula trebuie sa fie 300px*/
+    heigth: 50px;/*de regula trebuie sa fie 300px*/
+    position: absolute; 
+    /*left: 45%;*/ 
+    /*top: -15%;*/ margin-top: -93px;
+    content: "";
+    margin-left: 450px;
+    text-align: center;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* aici trebuie de facut un @media size pentru ca in height imaginea de meniu sa nu atarne in jos*/
+.menu_area {
+    position: absolute;
+    left: 0%;
+    margin-top: -669px;
+    /*
+    text-align: center;*/
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+.welcome {
+    position: absolute;
+    left: 75px;
+    top: 0%;
+    z-index: -1;
+}
+
+.welcome_bar {
+    position: relative;
+    margin: -610px 0 0 0;
+    opacity: 0.7;
+}
+
+.first_text {
+    position: relative;
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 62px;
+    margin: -340px 0 0 25px;
+}
+
+.second_text {
+    position: relative;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 24px;
+    margin: 0 0 0 25px;
+    color: white;
+}
+/**********          Up Part           ******************/
+
+
+
+/*---------------------Products Styles------------------------*/
+.middle_part {
+    border-left: 1200px solid #f7ffbd;
+    height: 1250px;
+    position: relative;
+    margin: 720px 0 0 75px;
+}
+
+.products_bar {
+    position: absolute;
+    margin: -110px 0 0 -1210px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px 350px;
+    padding-top: 220px;
+  }
+  
+  .grid-container > div {margin: 0 0 0 -1100px;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+    
+  }
+
+*.product_text {
+    font-size: 28px;
+    margin-top: 30px;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.href_prod {
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    
+}
+
+.button_back {
+    background-color: #7ed957;
+        border: none;
+        color: #4b0707;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;font-weight: bold;
+        margin: 60px 0 0 -1100px;
+        cursor: pointer;
+        font-style: 'Manrope', sans-serif;
+        border-radius: 40px 5px 5px 40px;
+        width: 70px;
+        height: 50px;
+        position: absolute;
+        
+        
+}
+
+.button_next {
+    background-color: #7ed957;
+        border: none;
+        color: #4b0707;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;font-weight: bold;
+        margin: 60px 0 0 -172px;
+        cursor: pointer;
+        font-style: 'Manrope', sans-serif;
+        border-radius: 5px 40px 40px 5px;
+        width: 70px;
+        height: 50px;
+        position: absolute;
+        opacity: 0.5;
+}
+
+.page_number {
+    color: #4b0707;
+    margin: 60px 0 0 -600px;
+    font-size: 35px;
+    position: absolute;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------Footer Menu/Part----------------------*/
+
+.footer_menu hr {
+    height: 10px;
+    /*align-items: center;*/
+    width: 100%;
+    margin: -54px 0 0 0;
+}
+
+* .menu_name {
+    color: #ffd116;
+    font-family: 'Roboto Condensed', sans-serif;
+    align: center;
+    font-size: 24px;
+}
+
+.my-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+.my-flex-container table {
+    align-items: baseline;
+    margin: 0 175px 0 0;
+} 
+* .menu_names {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 21px;
+}
+
+.my-flex-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.down_area {
+    position: absolute;
+}
+
+
+.footer_nav {
+    position: absolute;
+    margin: 0;
+}
+
+.footer_text {
+    font-family: 'Sacramento', cursive;
+    color: darkorange;
+    position: relative;
+    font-size: 45px;
+    margin: 15px 0 0 140px;
+}
+
+.fb {
+    position: relative;
+    margin: 10px 0 0 0;
+}
+
+.ig {
+    position: relative;
+    margin: 10px 0 0 0;
+}
+
+.vl {
+    border-left: 6px solid white;
+    height: 95px;
+    position: relative; 
+    margin: 10px 0 0 0;
+}
+
+.social {
+    position: relative;
+    margin: 10px 0 0 0;
+}
+
+.contacts_text {
+    position: relative;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.rights {
+    position: absolute;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 129px 0 0 620px;
+}
+
+
